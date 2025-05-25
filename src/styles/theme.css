@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Oswald:wght@200;400&display=swap');
+
+:root {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.5;
+
+  /* Colors */
+  --color-primary: #410b8d;
+  --color-secondary: #2a08a1;
+  --color-text: #000000;
+  --color-background: #ffffff;
+  --color-m: #1d0670;
+  --color-melrose: #d0c2ff;
+  --color-heliotrope: #a186ff;
+  --color-pizazz: #ff9100;
+  --color-indochine: #b36600;
+  --color-negroni: #ffe4bf;
+  --color-chardonnay: #ffc880;
+  --color-yellow: #fff600;
+  --color-gold: #b3ac00;
+  --color-shalimar: #fffdbf;
+  --color-dolly: #fffb80;
+
+  /* Fonts */
+  --font-body: 'Oswald', sans-serif;
+  --font-heading: 'Asap', sans-serif;
+
+  /* Font Sizes */
+  --font-size-0: 16px;
+  --font-size-1: 18px;
+  --font-size-2: 20px;
+  --font-size-3: 24px;
+  --font-size-4: 30px;
+  --font-size-5: 36px;
+  --font-size-6: 40px;
+  --font-size-7: 48px;
+  --font-size-8: 64px;
+  --font-size-9: 72px;
+  --font-size-10: 96px;
+
+  /* Font Weights */
+  --font-weight-lite: 200;
+  --font-weight-body: 400;
+  --font-weight-heading: 700;
+
+  /* Line Heights */
+  --line-height-body: 1.5;
+  --line-height-heading: 1.25;
+
+  /* Spacing */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 32px;
+  --space-5: 64px;
+  --space-6: 128px;
+
+  /* Border Radius */
+  --radius-0: 0;
+  --radius-1: 3px;
+  --radius-2: 6px;
+
+  /* Shadows */
+  --shadow-card: 0 0 4px rgba(0, 0, 0, 0.125);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-outline: 0 0 0 3px rgba(66, 153, 225, 0.6);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  --shadow-none: none;
+}
