@@ -1,21 +1,21 @@
 /** @type {import('jest').Config} */
 export default {
+  preset: 'ts-jest/presets/default-esm',
   testEnvironment: 'jsdom',
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {
     // Handle module aliases (if you're using them in your project)
     '^@/(.*)$': '<rootDir>/src/$1',
     // Handle CSS imports (if you're using CSS modules)
-    '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
     // Handle static assets
     '\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/src/__mocks__/fileMock.js',
   },
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   transform: {
-    '^.+\\.(ts|tsx)$': [
+    '^.+\\.tsx?$': [
       'ts-jest',
       {
         useESM: true,
-        tsconfig: 'tsconfig.json',
       },
     ],
   },
